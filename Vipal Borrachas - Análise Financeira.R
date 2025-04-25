@@ -106,7 +106,7 @@ preco_borracha <- c(10.42, 14.00, 17.60)
 #Inflação anual (%)
 inflacao_anual <- c(10.74, 5.79, 4.62)
 
-#Calculando a inflação acumulada corretamente
+#Calculando a inflação acumulada
 inflacao_acumulada <- c(0, inflacao_anual[2], sum(inflacao_anual[2],inflacao_anual[3]))
 
 #Normalizando os dados
